@@ -21,7 +21,7 @@ export default {
 <template>
   <Navbar :changePage='changePage' />
   <div class="main">
-    <HelloWorld v-if="currentPage === 'hello'" msg="Vite + Vue" />
+    <HelloWorld v-if="currentPage === 'hello'" msg="Hi batch #1298" />
     <Todo v-else />
   </div>
 </template>
